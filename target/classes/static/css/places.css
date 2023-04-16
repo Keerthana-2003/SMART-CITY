@@ -1,0 +1,60 @@
+.placesImg{
+    background-image: url("../images/india_cover.jpg");
+    background-size: cover;
+    min-width: 1400px;
+    min-height: 350px;
+
+}    .cardContent{
+         margin-left:6.8%;
+         padding:1px 16px;
+         height:100%;
+         padding-top:4%;
+         font-family: Montserrat, sans-serif;
+     }
+
+.card{
+    max-width:270px;
+    min-height: 350px;
+    border-radius: 5%;
+    box-shadow: 0px 3px 6px #3a3a3a;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+
+.card .caption {
+    background: #2c2c2c;
+    padding: 16px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards :hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px #2e2f29;
+}
+
+.coverImg{
+    width: 100%;
+    height: 70%;
+}
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: #3a3a3a;
+}
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
